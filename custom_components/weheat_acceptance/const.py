@@ -4,7 +4,7 @@ from logging import Logger, getLogger
 
 DOMAIN = "weheat_acceptance"
 MANUFACTURER = "Weheat"
-ENTRY_TITLE = "Weheat cloud"
+ENTRY_TITLE = "Weheat Acceptance"
 ERROR_DESCRIPTION = "error_description"
 
 OAUTH2_AUTHORIZE = (
@@ -13,7 +13,7 @@ OAUTH2_AUTHORIZE = (
 OAUTH2_TOKEN = (
     "https://auth.acc.weheat.nl/auth/realms/Weheat/protocol/openid-connect/token/"
 )
-API_URL = "https://api.acc.weheat.nl"
+API_URL = "https://api.acc.weheat.nl/third_party"
 OAUTH2_SCOPES = ["openid", "offline_access"]
 
 

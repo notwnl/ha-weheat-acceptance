@@ -1,11 +1,12 @@
 {
   "domain": "weheat_acceptance",
-  "name": "WeHeat Acceptance",
+  "name": "Weheat Acceptance",
   "codeowners": ["@notwnl"],
-  "documentation": "https://github.com/notwnl/ha-weheat-acceptance",
   "config_flow": true,
   "dependencies": ["application_credentials"],
+  "documentation": "https://github.com/notwnl/ha-weheat-acceptance",
+  "integration_type": "hub",
   "iot_class": "cloud_polling",
-  "requirements": ["weheat==2026.1.25"],
-  "version": "2026.2.3-acc.1"
+  "requirements": ["weheat==2026.9.3"],
+  "version": "2026.10.4-acc.1"
 }
